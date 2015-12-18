@@ -1,6 +1,6 @@
 {
   "name": "@pariveda/sarah-test1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/components/sarahComponent.react.js",
   "description": "New Test Component",
   "author": "Pariveda Solutions - Sarah Ritter",
@@ -20,7 +20,7 @@
   "devDependencies": {
     "reactify": "^1.1.1"
   },
-  "browserify":{
+  "browserify": {
     "transform": [
       "reactify"
     ]
