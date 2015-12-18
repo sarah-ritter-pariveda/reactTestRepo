@@ -9,7 +9,7 @@
     "url": "https://github.com/sarahritterpariveda/reactTestRepo.git"
   },
   "scripts": {
-    "jsx": "jsx js dist",
+    "jsx": "jsx js dist --no-cache-dir",
     "prepublish": "npm run jsx",
     "start": "watchify -o js/bundle.js -v -d ."
   },
